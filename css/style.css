@@ -2,7 +2,10 @@
     box-sizing: border-box
 }
 
-/*The font stack for the project is: Helvetica Neue, Helvetica, sans-serif*/
+#app-container{
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
 /*Blue fixed call-to-action in bottom-right background-color: #3A539B*/
 /*Anchor tag color: #3E7FBB.*/
 /*Red color: #DB4B38*/
