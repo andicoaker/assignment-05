@@ -2,8 +2,14 @@
     box-sizing: border-box
 }
 
+body {
+}
+
 #app-container{
   font-family: Helvetica Neue, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 
 /*Blue fixed call-to-action in bottom-right background-color: #3A539B*/
@@ -264,3 +270,49 @@ h1 {
     font-size: 20px;
     padding-left: 5px;
   }
+
+/*FIXED BOX*/
+
+.fixed-box{
+  background-color: #3A539B;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 20%;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+.fixed-box-text {
+  background-color: #3A539B;
+  color: white;
+}
+  .fixed-box-text i {
+    color: #DB4B38;
+    padding-right: 5px;
+  }
+  .fixed-box-text p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 10px;
+
+  }
+
+  .search{
+    padding-bottom: 10px;
+  }
+    .search p{
+      margin: 0;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+    .search input{
+      width: 90%;
+    }
+    .search i{
+      background-color: #cdc9c9;
+      width: 10%;
+      padding-left: 7px;
+      padding-bottom: 4px;
+      font-size: x-small;
+      padding-top: 5px;
+    }
