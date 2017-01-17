@@ -17,18 +17,22 @@
   color: white;
   width: 100%;
 }
-  .logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 17%;
+  .logo-container {
+    font-size: 0;
+    display: block;
+  }
+    .logo {
+      display: inline-block;         vertical-align: top;
+      width: 30%;
+      font-size: medium;
 
-  }
-  .lable{
-    display: inline-block;
-    vertical-align: top;
-    float: right;
-    width: 60%;
-  }
+    }
+    .lable{
+      display: inline-block;
+      vertical-align: top;
+      width: 70%;
+      font-size: medium;
+    }
   .main-nav ul{
     list-style: none;
     display: inline-block;
@@ -43,7 +47,7 @@
 
 /*COLUMNS CONTAINER*/
 
-.columns-container{
+.main-columns-container{
   padding-left: 20px;
   padding-right: 20px;
   /*font-size: 0;*/
@@ -57,6 +61,13 @@
   /*vertical-align: top;*/
 }
 
+.section-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h1 {
+  margin: 0px;
+}
   .mini-nav ul{
     list-style: none;
     display: inline-block;
@@ -74,24 +85,58 @@
     color: gray;
   }
 
-.section-columns {
-  display: inline-block;
-}
+  /*SECTION COLUMNS*/
 
-.left-desc{
-  width: 50%;
-  display: inline-block;
+.columns-container {
+  font-size: 0;
+  padding-top: 10px;
+  display: block;
 }
-
-
-/*.section-right {
-  width: 50%;
-  display: inline-block;*/
-}
-  .section-right img{
+  .left-desc{
+    width: 50%;
     display: inline-block;
-    width: 100%;
+    vertical-align: top;
+    font-size: medium;
+    padding-right: 20px;
   }
+  .right-img{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 20px;
+  }
+
+    .right-img img{
+      width: 100%;
+      display: block;
+    }
+
+  .left-img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+  }
+    .left-img img{
+      width: 100%;
+      display: block;
+    }
+
+  .right-desc {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  padding-left: 20px;
+  }
+    .right-desc ul{
+      list-style: none;
+      font-weight: bold;
+      line-height: 1.5;
+      font-style: italic;
+      padding-left: 0px;
+    }
+
+
 
 /*RIGHT COLUMN*/
 .right-column{
