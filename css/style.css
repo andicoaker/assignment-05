@@ -9,3 +9,91 @@
 /*Blue fixed call-to-action in bottom-right background-color: #3A539B*/
 /*Anchor tag color: #3E7FBB.*/
 /*Red color: #DB4B38*/
+
+/*MAIN NAV*/
+
+.main-nav{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+
+  }
+  .lable{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 60%;
+  }
+  .main-nav ul{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 15px;
+  }
+  .main-nav li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+/*COLUMNS CONTAINER*/
+
+.columns-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  /*font-size: 0;*/
+}
+
+/*LEFT COLUMN*/
+
+.left-column{
+  width: 75%;
+  /*font-size: medium;*/
+  /*vertical-align: top;*/
+}
+
+  .mini-nav ul{
+    list-style: none;
+    display: inline-block;
+
+  }
+
+  .mini-nav li{
+    display: inline-block;
+    background-color: ivory;
+    color: lightblue;
+  }
+
+  .mini-nav .mfah-li {
+    background-color: lightblue;
+    color: gray;
+  }
+
+.section-columns {
+  display: inline-block;
+}
+
+.left-desc{
+  width: 50%;
+  display: inline-block;
+}
+
+
+/*.section-right {
+  width: 50%;
+  display: inline-block;*/
+}
+  .section-right img{
+    display: inline-block;
+    width: 100%;
+  }
+
+/*RIGHT COLUMN*/
+.right-column{
+  width: 25%;
+}
