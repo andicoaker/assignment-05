@@ -259,8 +259,8 @@ h1 {
   .footer-list li{
     display: inline-block;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 70px;
+    padding-left: 10px;
+    padding-right: 46px;
   }
   .footer-list span{
     font-weight: bold;
